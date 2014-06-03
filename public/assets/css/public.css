@@ -1,0 +1,82 @@
+/* This stylesheet is used to style the public-facing components of the plugin. */
+#bsh{
+	background-color: white;
+	position: fixed;
+	z-index: 9999;
+	display: none;
+	top: 0;
+	
+	-moz-box-shadow: 0 3px 5px #cccccc;
+	-webkit-box-shadow: 0 3px 5px #cccccc;
+	box-shadow: 0 3px 5px #cccccc;
+}
+.bsh-ss-button, .bsh-title , .bsh-ss-container {
+	display: inline-block;
+	vertical-align: middle;
+}
+.bsh-container{
+	width: 100%;
+}
+.bsh-content{
+	margin:0 auto;
+	padding: 10px 60px;
+}
+.bsh-title{
+	width: 55%;
+}
+.bsh-title h1{
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+}
+.bsh-ss-container {
+	width: 35%;
+}
+.bsh-ss-button{
+	float: right;
+	padding: 10px 20px;
+	border-radius: 4px;
+	color: white;
+	margin-left: 10px;
+}
+.bsh-ss-button:hover{
+	cursor: pointer;
+	background-color: #b3b3b3;
+}
+.bsh-ss-button img{
+	height: 20px;
+	margin-left: 5px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.bsh-title{
+		width: 49%;
+	}
+	.bsh-ss-container{
+		width: 49%;
+	}
+	.bsh-title h1{
+		font-size: 21px;
+		font-weight: 600;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+}
+@media (max-width: 767px){
+	#bsh{
+		display: none !important;
+	}
+}
+
+
+/* Different Social Media */
+
+.bsh-facebook{
+	background-color: #3b5998;
+}
+.bsh-twitter{
+	background-color: #00aced;
+}
