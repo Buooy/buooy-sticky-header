@@ -87,7 +87,8 @@ $this->sections[] = array(
 		//Choose Social Media to show
 		array(
 			'id'        => 'bsh-choose-social-media',
-			'type'      => 'checkbox',
+			'type'      => 'sortable',
+			'mode'      => 'checkbox',
 			'title'     => __('Choose Social Media', 'redux-framework-demo'),
 			'subtitle'  => __('Choose which social media will appear in the sticky header', 'redux-framework-demo'),
 			'options'   => array(
@@ -117,6 +118,15 @@ $this->sections[] = array(
 			'validate'  => 'no_special_chars',
 			'default'   => 'My Facebook ID here'
 		),
+		array(
+			'id'        => 'bsh-facebook-share-text',
+			'type'      => 'text',
+			'title'     => __('Enter your Facebook share text here', 'redux-framework-demo'),
+			'subtitle'  => __('', 'redux-framework-demo'),
+			'desc'      => __('', 'redux-framework-demo'),
+			'validate'  => '',
+			'default'   => 'Share'
+		),
 		
 		// Twitter Settings
 		array(
@@ -135,6 +145,15 @@ $this->sections[] = array(
 			'desc'      => __('', 'redux-framework-demo'),
 			'validate'  => '',
 			'default'   => 'My Twitter screen name here'
+		),
+		array(
+			'id'        => 'bsh-twitter-share-text',
+			'type'      => 'text',
+			'title'     => __('Enter your Twitter share text here', 'redux-framework-demo'),
+			'subtitle'  => __('', 'redux-framework-demo'),
+			'desc'      => __('', 'redux-framework-demo'),
+			'validate'  => '',
+			'default'   => 'Tweet'
 		),
 		
 		// More Social Media
