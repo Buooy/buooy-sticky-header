@@ -28,21 +28,12 @@
 		});
 		/* Onclicking twitter button */
 		$('.bsh-twitter').click(function(event){	
-<<<<<<< HEAD
 			
 			var _url = 'https://twitter.com/intent/tweet?text=';
 			_url += 	encodeURIComponent( $('.bsh-title').text() );
 			_url +=		'&url='+encodeURIComponent(document.URL);
 			_url +=		'&via='+encodeURIComponent(bsh_twitter_screen_name);
 			_url +=		'&original_referer='+encodeURIComponent(document.URL);
-=======
-		
-			var _url = 	'https://twitter.com/intent/tweet?text=';
-			_url += 	escape($('.bsh-title').text());
-			_url +=		'&url='+escape(document.URL);
-			_url +=		'&via='+bsh_twitter_screen_name;
-			_url +=		'&original_referer='+escape(document.URL);
->>>>>>> FETCH_HEAD
 		
 			var width  = 575,
 			height = 400,

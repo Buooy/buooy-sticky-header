@@ -87,8 +87,7 @@ $this->sections[] = array(
 		//Choose Social Media to show
 		array(
 			'id'        => 'bsh-choose-social-media',
-			'type'      => 'sortable',
-			'mode'      => 'checkbox',
+			'type'      => 'checkbox',
 			'title'     => __('Choose Social Media', 'redux-framework-demo'),
 			'subtitle'  => __('Choose which social media will appear in the sticky header', 'redux-framework-demo'),
 			'options'   => array(
@@ -155,10 +154,6 @@ $this->sections[] = array(
 			'validate'  => '',
 			'default'   => 'Tweet'
 		),
-<<<<<<< HEAD
-=======
-		
->>>>>>> FETCH_HEAD
 		// More Social Media
 		array(
 			'id'        => 'bsh-go-pro',
