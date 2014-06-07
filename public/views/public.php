@@ -25,6 +25,7 @@ Class Sticky_Header_View{
 			foreach( $this->sticky_header['bsh-choose-social-media'] as $ss => $show ){
 				if($show) array_push($this->bsh_social_media, $ss);
 			}
+			$this->bsh_social_media = array_reverse($this->bsh_social_media);
 		}
 	}
 	
@@ -87,7 +88,7 @@ Class Sticky_Header_View{
 		$bsh_social_indv_class= apply_filters( 'bsh_social_indv_class', $bsh_social_indv_class );
 			
 		$ss_btn = '<div class="bsh-ss-button bsh-'.$social_media.' '.$bsh_social_indv_class.'">';
-		$ss_btn .= '<span class="bsh-ss-button-text">Share on <img src="'.plugins_url( 'assets/img/'.$social_media.'.png' , dirname(__FILE__) ).'" alt="Share on '.$social_media.'"></span>';
+		$ss_btn .= '<span class="bsh-ss-button-text"><img src="'.plugins_url( 'assets/img/'.$social_media.'.png' , dirname(__FILE__) ).'" alt="Share on '.$social_media.'">&nbsp;'.$this->sticky_header['bsh-'.$social_media.'-share-text'].'</span>';
 		$ss_btn .= '</div>';
 		return $ss_btn;
 	}

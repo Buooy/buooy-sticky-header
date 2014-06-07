@@ -4,6 +4,12 @@
 	$(document).ready(function(){
 	
 		/* Show when in position */
+		if( $(document).scrollTop() >= bsh_show_position  ){
+			$('#bsh').fadeIn();
+		}
+		else{
+			$('#bsh').fadeOut();
+		}
 		$(document).scroll(function(){
 			if( $(document).scrollTop() >= bsh_show_position  ){
 				$('#bsh').fadeIn();
@@ -22,12 +28,12 @@
 		});
 		/* Onclicking twitter button */
 		$('.bsh-twitter').click(function(event){	
-		
-			var _url = 	'https://twitter.com/intent/tweet?text=';
-			_url += 	encodeURI($('.bsh-title').text());
-			_url +=		'&url='+encodeURI(document.URL);
-			_url +=		'&via='+bsh_twitter_screen_name;
-			_url +=		'&original_referer='+encodeURI(document.URL);
+			
+			var _url = 'https://twitter.com/intent/tweet?text=';
+			_url += 	encodeURIComponent( $('.bsh-title').text() );
+			_url +=		'&url='+encodeURIComponent(document.URL);
+			_url +=		'&via='+encodeURIComponent(bsh_twitter_screen_name);
+			_url +=		'&original_referer='+encodeURIComponent(document.URL);
 		
 			var width  = 575,
 			height = 400,

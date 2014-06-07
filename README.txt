@@ -3,15 +3,28 @@ Contributors: Buooy
 Tags: sticky,header,social,sharing,share,posts,wordpress
 Requires at least: 3.8.1
 Tested up to: 3.9.1
-Stable tag: 0.5.1
+Stable tag: 0.5.2
 License: GPL2
 
 This plugin provides you with an sticky header that contains your post title and share buttons!
 
 == Description ==
-This plugin provides you with an sticky header that contains your post title and share buttons!
+Ever wanted to have a sticky header that can help your post go social? Wondered how your post can be like Mashable (http://mashable.com/2014/06/06/polar-bear-cam/) and Elitedaily (http://elitedaily.com/life/culture/why-millennials-need-to-be-responsible-for-remembering-the-past/622873/)?  
 
-This is our lite version and is completely free to use! For more features, do continue to follow Buooy Sticky Header Pro at http://aaronstevensonlee.me/buooy-sticky-header/
+Now you can! This plugin provides you with an sticky header that contains your post title and share buttons!
+
+This is our lite version and is completely free to use! 
+
+
+=== Demo ===
+Check out our demo at http://aaronstevensonlee.me/buooy-sticky-header/
+
+For more features, do continue to follow Buooy Sticky Header Pro at http://aaronstevensonlee.me/buooy-sticky-header/
+
+
+=== As featured in ===
+WPMU Dev : http://premium.wpmudev.org/blog/12-surprisingly-useful-wordpress-plugins-you-dont-know-about/
+
 
 == Frequently Asked Questions ==
 ==What are the filters that I can use==

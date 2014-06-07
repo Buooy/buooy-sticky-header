@@ -15,7 +15,7 @@
  * Plugin Name:       Buooy Sticky Header
  * Plugin URI:       http://aaronstevensonlee.me/buooy-sticky-header/
  * Description:       This plugin provides you with an sticky header that contains your post title and share buttons!
- * Version:           0.5.1
+ * Version:           0.5.2
  * Author:       	Buooy
  * Author URI:       http://buooy.com
  * Text Domain:       buooy-sticky-header

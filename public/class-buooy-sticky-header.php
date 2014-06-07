@@ -30,7 +30,7 @@ class Buooy_Sticky_Header {
 	 *
 	 * @var     string
 	 */
-	const VERSION = '1.0.0';
+	const VERSION = '1.0.3';
 
 	/**
 	 * @TODO - Rename "buooy-sticky-header" to the name your your plugin
